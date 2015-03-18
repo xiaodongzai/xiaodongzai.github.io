@@ -32,9 +32,9 @@ Quick">
     <div class="overlay"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
-		<div class="profilepic">
-			<img src="https://avatars2.githubusercontent.com/u/2024949?v=2&amp;s=150">
-		</div>
+		<a href="/" class="profilepic">
+			<img src="">
+		</a>
 
 		<hgroup>
 		  <h1 class="header-author"><a href="/">云贤力</a></h1>
@@ -56,6 +56,11 @@ Quick">
 							<div class="ribbon"></div>
 						</div>
 						
+						<div class="icon-wrap icon-link hide" data-idx="2">
+							<div class="loopback_l"></div>
+							<div class="loopback_r"></div>
+						</div>
+						
 						
 						<div class="icon-wrap icon-me hide" data-idx="3">
 							<div class="user"></div>
@@ -70,6 +75,8 @@ Quick">
 					<ul class="tips-inner">
 						<li>菜单</li>
 						<li>标签</li>
+						
+						<li>友情链接</li>
 						
 						
 						<li>关于我</li>
@@ -94,11 +101,13 @@ Quick">
 					<nav class="header-nav">
 						<div class="social">
 							
-								<a class="github" target="_blank" href="https://github.com/jayzAlex" title="github">github</a>
+								<a class="github" target="_blank" href="/yxl/#" title="github">github</a>
 					        
-								<a class="weibo" target="_blank" href="http://www.weibo.com/1300109375" title="weibo">weibo</a>
+								<a class="weibo" target="_blank" href="/yxl/#" title="weibo">weibo</a>
 					        
-								<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+								<a class="rss" target="_blank" href="/yxl/#" title="rss">rss</a>
+					        
+								<a class="zhihu" target="_blank" href="/yxl/#" title="zhihu">zhihu</a>
 					        
 						</div>
 					</nav>
@@ -106,19 +115,37 @@ Quick">
 				
 				
 				<section class="switch-part switch-part2">
-					<div class="widget tagcloud">
+					<div class="widget tagcloud" id="js-tagcloud">
 						
 					</div>
 				</section>
 				
 				
 				
+				<section class="switch-part switch-part3">
+					<div id="js-friends">
+					
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
+			        
+			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
+			        
+			        </div>
+				</section>
+				
 
 				
 				
-				<section class="switch-part switch-part3">
+				<section class="switch-part switch-part4">
 				
-					一个Android开发者 + 手机控 + 技术脑残粉 + Google脑残粉，爱技术，爱尝鲜，也爱赚钱！
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
 				</section>
 				
 			</div>
@@ -128,16 +155,18 @@ Quick">
     </div>
     <div class="mid-col">
       <nav id="mobile-nav">
-  	<div class="overlay"></div>
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">云贤力</h1>
+  	</div>
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
-				<img src="https://avatars2.githubusercontent.com/u/2024949?v=2&amp;s=150">
+				<img src="">
+				<hgroup>
+				  <h1 class="header-author">云贤力</h1>
+				</hgroup>
 			</div>
-
-			<hgroup>
-			  <h1 class="header-author"><a href="/">云贤力</a></h1>
-			</hgroup>
 			
 			<p class="header-subtitle">前端博客</p>
 			
@@ -154,25 +183,25 @@ Quick">
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="https://github.com/jayzAlex" title="github">github</a>
+						<a class="github" target="_blank" href="/yxl/#" title="github">github</a>
 			        
-						<a class="weibo" target="_blank" href="http://www.weibo.com/1300109375" title="weibo">weibo</a>
+						<a class="weibo" target="_blank" href="/yxl/#" title="weibo">weibo</a>
 			        
-						<a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+						<a class="rss" target="_blank" href="/yxl/#" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="/yxl/#" title="zhihu">zhihu</a>
 			        
 				</div>
 			</nav>
 		</header>				
 	</div>
 </nav>
-      <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/yxl/2015/03/18/hello-world/" class="article-date">
   	<time datetime="2015-03-18T05:36:33.000Z" itemprop="datePublished">2015-03-18</time>
 </a>
-      
-      
     </div>
   
   <div class="article-inner">
@@ -189,6 +218,14 @@ Quick">
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
     
     <div class="article-entry" itemprop="articleBody">
       
@@ -204,10 +241,7 @@ Quick">
 
       
     </div>
-    <footer class="article-footer">
-      
-      
-    </footer>
+    
   </div>
   
     
@@ -253,7 +287,7 @@ Quick">
 
 
 
-
+</div>
       <footer id="footer">
   <div class="outer">
     <div id="footer-info">
@@ -270,7 +304,38 @@ Quick">
     
   <link rel="stylesheet" href="/yxl/fancybox/jquery.fancybox.css" type="text/css">
   <script src="/yxl/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-  <script src="/yxl/js/main.js" type="text/javascript"></script>
+
+
+<script src="/yxl/js/mobile.js" type="text/javascript"></script>
+<script src="/yxl/js/main.js" type="text/javascript"></script>
+
+
+
+
+
+<! -- mathjax config similar to math.stackexchange -->
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
 
   </div>
 </body>
