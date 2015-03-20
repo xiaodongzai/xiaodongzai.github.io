@@ -461,15 +461,19 @@ a {
     margin: 10px;
   }
 }
-.header-author {
+@font-face {
+  font-family: 'xiaodongzai';
+  src: url("fonts/xiaodongzai.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+#header .header-author {
   text-align: center;
   margin: 0.67em 0;
-  font-family: Roboto, "Roboto", serif;
   font-size: 30px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  transition: 0.3s;
+}
+#header .header-author-a {
+  font-family: "xiaodongzai";
 }
 #header {
   width: 100%;
@@ -501,50 +505,71 @@ a {
   -moz-transition-property: -moz-transform, -o--moz-transform, -webkit--moz-transform;
   -ms-transition-property: -ms-transform, -o--ms-transform, -webkit--ms-transform;
   transition-property: transform, -o-transform, -webkit-transform;
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -ms-transition-duration: 2s;
-  transition-duration: 2s;
+  -webkit-transition-duration: 1.5s;
+  -moz-transition-duration: 1.5s;
+  -ms-transition-duration: 1.5s;
+  transition-duration: 1.5s;
   -webkit-transition-timing-function: ease-out;
   -moz-transition-timing-function: ease-out;
   -ms-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  -webkit-transition-delay: 0.1s;
-  -moz-transition-delay: 0.1s;
-  -ms-transition-delay: 0.1s;
-  transition-delay: 0.1s;
-}
-#header .profilepic:hover {
-  -moz-transform: rotate(360deg);
-  -moz-transform-origin: 50% 50%;
-  -webkit-transform: rotate(360deg);
   -webkit-transform-origin: 50% 50%;
-  -o-transform: rotate(360deg);
   -o-transform-origin: 50% 50%;
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
+  -moz-transform-origin: 50% 50%;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-transition-property: -webkit-transform, -o--webkit-transform, -webkit--webkit-transform;
-  -moz-transition-property: -moz-transform, -o--moz-transform, -webkit--moz-transform;
-  -ms-transition-property: -ms-transform, -o--ms-transform, -webkit--ms-transform;
-  transition-property: transform, -o-transform, -webkit-transform;
-  -webkit-transition-duration: 2s;
-  -moz-transition-duration: 2s;
-  -ms-transition-duration: 2s;
-  transition-duration: 2s;
-  -webkit-transition-timing-function: ease-out;
-  -moz-transition-timing-function: ease-out;
-  -ms-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-  -webkit-transition-delay: 0.1s;
-  -moz-transition-delay: 0.1s;
-  -ms-transition-delay: 0.1s;
-  transition-delay: 0.1s;
+}
+#header .profilepic-rorate-op {
+  -moz-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
+#header .profilepic-rorate {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#header .profilepic-scale {
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -moz-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+#header .profilepic-scale-op {
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -moz-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+#header .profilepic-scale-rotate {
+  -webkit-transform: scale(0.3) rotate(360deg);
+  -moz-transform: scale(0.3) rotate(360deg);
+  -webkit-transform: scale(0.3) rotate(360deg);
+  -moz-transform: scale(0.3) rotate(360deg);
+  -ms-transform: scale(0.3) rotate(360deg);
+  transform: scale(0.3) rotate(360deg);
+}
+#header .profilepic-scale-rotate-op {
+  -webkit-transform: scale(0.3) rotate(-360deg);
+  -moz-transform: scale(0.3) rotate(-360deg);
+  -webkit-transform: scale(0.3) rotate(-360deg);
+  -moz-transform: scale(0.3) rotate(-360deg);
+  -ms-transform: scale(0.3) rotate(-360deg);
+  transform: scale(0.3) rotate(-360deg);
 }
 #header .header-subtitle {
   text-align: center;
