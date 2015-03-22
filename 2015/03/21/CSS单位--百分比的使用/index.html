@@ -3,17 +3,29 @@
 <head>
   <meta charset="utf-8">
   
-  <title>小東仔</title>
+  <title>CSS单位--百分比的使用 | 小東仔</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="技术及生活分享">
-<meta property="og:type" content="website">
-<meta property="og:title" content="小東仔">
-<meta property="og:url" content="http://yunxianli.github.io/index.html">
+  <meta name="description" content="最近做手机移动端页面经常需要使用到百分比，但用起来并不是很顺利，主要是没搞清楚元素的参考对象
+1. 在background-size中使用百分比误区：参照图片原始大小正解：参照所属容器的宽高
+先看下demo:在background-size中使用百分比Demo
+
+默认值为auto auto，不伸缩；如果高度对应的值设为100%，则以高度为基准进行等比缩放，最终值为容器的高度；宽度类似，如果宽高同时">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CSS单位--百分比的使用">
+<meta property="og:url" content="http://yunxianli.github.io/2015/03/21/CSS单位--百分比的使用/index.html">
 <meta property="og:site_name" content="小東仔">
-<meta property="og:description" content="技术及生活分享">
+<meta property="og:description" content="最近做手机移动端页面经常需要使用到百分比，但用起来并不是很顺利，主要是没搞清楚元素的参考对象
+1. 在background-size中使用百分比误区：参照图片原始大小正解：参照所属容器的宽高
+先看下demo:在background-size中使用百分比Demo
+
+默认值为auto auto，不伸缩；如果高度对应的值设为100%，则以高度为基准进行等比缩放，最终值为容器的高度；宽度类似，如果宽高同时">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="小東仔">
-<meta name="twitter:description" content="技术及生活分享">
+<meta name="twitter:title" content="CSS单位--百分比的使用">
+<meta name="twitter:description" content="最近做手机移动端页面经常需要使用到百分比，但用起来并不是很顺利，主要是没搞清楚元素的参考对象
+1. 在background-size中使用百分比误区：参照图片原始大小正解：参照所属容器的宽高
+先看下demo:在background-size中使用百分比Demo
+
+默认值为auto auto，不伸缩；如果高度对应的值设为100%，则以高度为基准进行等比缩放，最终值为容器的高度；宽度类似，如果宽高同时">
   
     <link rel="alternative" href="/atom.xml" title="小東仔" type="application/atom+xml">
   
@@ -193,9 +205,7 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-CSS单位--百分比的使用" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-CSS单位--百分比的使用" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2015/03/21/CSS单位--百分比的使用/" class="article-date">
@@ -211,12 +221,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/03/21/CSS单位--百分比的使用/">CSS单位--百分比的使用</a>
+    <h1 class="article-title" itemprop="name">
+      CSS单位--百分比的使用
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS单位/">CSS单位</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端开发/">前端开发</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -227,108 +248,73 @@
 <blockquote>
 <p>默认值为auto auto，不伸缩；<br>如果高度对应的值设为100%，则以高度为基准进行等比缩放，最终值为容器的高度；宽度类似，如果宽高同时设为100%，<br>则将图片拉伸为容器大小；<br>contain 等比缩放到宽度或高度与容器的宽度或高度相等，背景图像始终被包含在容器内；<br>cover 等比缩放到完全覆盖容器，背景图像有可能超出容器；</p>
 </blockquote>
-<p>弄清楚参考对象，就可以根据不同场景下来进行选择使用。<br>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS/">CSS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/CSS单位/">CSS单位</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端开发/">前端开发</a></li></ul>
-	</div>
+<p>弄清楚参考对象，就可以根据不同场景下来进行选择使用。<br><a id="more"></a></p>
 
       
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/03/21/CSS单位--百分比的使用/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
     </div>
     
   </div>
   
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2015/03/20/眼见为实？/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">眼见为实？</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
 </article>
 
 
-
-
-
-
-
-<script type="text/javascript">
-	$(function(){
-		
-	});
-</script>
-  
-    <article id="post-眼见为实？" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/03/20/眼见为实？/" class="article-date">
-  	<time datetime="2015-03-19T16:00:00.000Z" itemprop="datePublished">2015-03-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/03/20/眼见为实？/">眼见为实？</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>(1) 赫尔曼网格</p>
-<p><img src="/img/psychology/illusion/hermannGrid.gif" alt=""></p>
-<p><em>为何网格的交叉点上会出现浅灰色的点？</em></p>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/心理学/">心理学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/感知与感觉/">感知与感觉</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/错觉/">错觉</a></li></ul>
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
 	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a  href="/2015/03/20/眼见为实？/#more">more >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-<script type="text/javascript">
-	$(function(){
-		
-	});
-</script>
-  
-  
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
 </div>
+
+
+
+<div class="duoshuo">
+	<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="CSS单位--百分比的使用" data-title="CSS单位--百分比的使用" data-url="http://yunxianli.github.io/2015/03/21/CSS单位--百分比的使用/"></div>
+	<!-- 多说评论框 end -->
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+	var duoshuoQuery = {short_name:"yunxianli"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+	<!-- 多说公共JS代码 end -->
+</div>
+
+
+
+
+
+<script type="text/javascript">
+	$(function(){
+		
+	});
+</script></div>
       <footer id="footer">
   <div class="outer">
     <div id="footer-info">

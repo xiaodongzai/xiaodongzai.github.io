@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			ul{
+				margin: 100px 10px;
+				color: #FFF;
+			}
+			.box{
+				display: inline-block;
+				width: 90px;
+				height: 60px;
+				background: #EEAD0E url(img/chglg-icon.png) no-repeat 0 0;
+				margin-left: 20px;
+			}
+			.type0{
+			}
+			.type1{
+				background-size: auto auto;
+			}
+			.type2{
+				background-size: auto 100%;
+			}
+			.type3{
+				background-size: 100% auto;
+			}
+			.type4{
+				background-size: 100% 100%;
+			}
+			.type5{
+				background-size: contain;
+			}
+			.type6{
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>第一个为图片原始大小，可以通过开发者工具调整下容器的大小观察不同属性的变化</h3>
+		<ul>
+			<li style="display: inline-block;vertical-align: top;"><img src="img/chglg-icon.png"></li>
+			<li class="box type0">默认</li>
+			<li class="box type1">auto auto</li>
+			<li class="box type2">auto 100%</li>
+			<li class="box type3">100% auto</li>
+			<li class="box type4">100% 100%</li>
+			<li class="box type5">contain</li>
+			<li class="box type6">cover</li>
+		</ul>
+		<div style="padding-left: 200px;">
+			<a href="/2015/03/21/CSS单位--百分比的使用/" class="btn btn-primary" target="_blank">返回原文章</a>
+		</div>
+	</body>
+</html>
